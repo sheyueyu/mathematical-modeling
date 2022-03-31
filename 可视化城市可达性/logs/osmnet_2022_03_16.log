@@ -1,0 +1,16 @@
+2022-03-16 21:02:27,449 INFO osmnet Requesting network data within bounding box from Overpass API in 1 request(s)
+2022-03-16 21:02:27,450 INFO osmnet Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["highway"!~"motor|proposed|construction|abandoned|platform|raceway"]["foot"!~"no"]["pedestrians"!~"no"](30.43000000,113.89320000,30.62310000,114.31070000);>;);out;'}"
+2022-03-16 21:05:28,665 INFO osmnet Downloaded 8,425.5KB from www.overpass-api.de in 181.21 seconds
+2022-03-16 21:05:28,798 INFO osmnet Downloaded OSM network data within bounding box from Overpass API in 1 request(s) and 181.35 seconds
+2022-03-16 21:05:29,591 INFO osmnet Returning OSM data with 68,186 nodes and 9,211 ways...
+2022-03-16 21:05:37,543 INFO osmnet Edge node pairs completed. Took 7.95 seconds
+2022-03-16 21:05:37,560 INFO osmnet Returning processed graph with 14,356 nodes and 21,417 edges...
+2022-03-16 21:05:37,561 INFO osmnet Completed OSM data download and Pandana node and edge table creation in 190.32 seconds
+2022-03-16 21:11:27,436 INFO osmnet Requesting network data within bounding box from Overpass API in 1 request(s)
+2022-03-16 21:11:27,437 INFO osmnet Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["highway"!~"motor|proposed|construction|abandoned|platform|raceway"]["foot"!~"no"]["pedestrians"!~"no"](30.43000000,113.89320000,30.62310000,114.31070000);>;);out;'}"
+2022-03-16 21:12:16,320 INFO osmnet Downloaded 8,425.5KB from www.overpass-api.de in 48.88 seconds
+2022-03-16 21:12:16,490 INFO osmnet Downloaded OSM network data within bounding box from Overpass API in 1 request(s) and 49.05 seconds
+2022-03-16 21:12:17,226 INFO osmnet Returning OSM data with 68,186 nodes and 9,211 ways...
+2022-03-16 21:12:25,270 INFO osmnet Edge node pairs completed. Took 8.04 seconds
+2022-03-16 21:12:25,288 INFO osmnet Returning processed graph with 14,356 nodes and 21,417 edges...
+2022-03-16 21:12:25,288 INFO osmnet Completed OSM data download and Pandana node and edge table creation in 58.01 seconds
